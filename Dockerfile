@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-COPY . C:/Users/canbe/Desktop/YMG2/
+COPY . index.html
 
 EXPOSE 80
 
