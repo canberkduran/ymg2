@@ -1,6 +1,5 @@
 FROM nginx:latest
 
-COPY . index.html
-
+COPY . /usr/share/nginx/html/
 EXPOSE 80
 
